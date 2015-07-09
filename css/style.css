@@ -431,14 +431,16 @@ body {
 div {
   border: 1px solid Chocolate;
 } 
-#logo {
-  display: inline;
-  height: 100px;
-  width: 100px;
-  object-fit: contain;
+.top-navigation {
+  background-color: #fff;
 }
-.list {
-  display: inline;
-  text-align: center;
+.top-navigation > .content  {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
+.links {
+  float: right;
+  display: inline-block;
 }
 
