@@ -431,12 +431,7 @@ td,
 th {
   padding: 0;
 }
-body {
-  background-color: LightGray;
-}
-div {
-  border: 1px solid Chocolate;
-} 
+
 .top-navigation {
   background-color: #fff;
 }
@@ -464,5 +459,61 @@ div {
 }
 .top-navigation .links li:hover {
   cursor: pointer;
-  color: #33333;
+  color: black;  
+}
+.body {
+  background-image: url('images/first-background copy.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: center;
+  color: white;
+  height: 43.938rem;
+  overflow: auto;
+  background-position: 0 bottom;
+  height: 598px;
+}
+.text {
+  margin: 0 auto;
+  padding: 0px 15px;
+  vertical-align: middle;
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased; 
+
+
+}
+.detailtext {
+  margin: 0 auto;
+  padding: 0px 15px;
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif; 
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+  font-weight: 300; 
+  -webkit-font-smoothing: antialiased; 
+}
+
+.big-button {
+  width: 9.688rem;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  line-height: 1.33;
+  display: block;
+  margin: 0 auto;
+  background-color: #f15a29;
+  padding: 16px 24px;
+  margin-top: 24px;
+  -webkit-font-smoothing: antialiased;
+  transition-property: background;
+  transition-duration: .25s;
+  transition-timing-function: linear;
+
+}
+.big-button:hover {
+  background-color: #e82c0c;
+  
 }
