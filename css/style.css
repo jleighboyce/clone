@@ -434,6 +434,9 @@ th {
 
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 .top-navigation > .content  {
   width: 970px;
@@ -462,7 +465,7 @@ th {
   color: black;  
 }
 .body {
-  background-image: url('images/first-background copy.jpg');
+  background-image: url('images/first-background.jpg');
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -511,9 +514,48 @@ th {
   transition-property: background;
   transition-duration: .25s;
   transition-timing-function: linear;
-
 }
 .big-button:hover {
-  background-color: #e82c0c;
+  background-color: #e82c0c; 
+}
+
   
+figure {
+    display: inline-block;
+}
+figure figcaption {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+.devices {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+}
+.coffee {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+}
+.refill {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+}
+.page-wrap {
+  margin-left: 250px;
+}
+
+
+
+h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  margin-top: 110px;
+  font-size: 2.75rem;
+  font-weight: 300;
+
+
 }
