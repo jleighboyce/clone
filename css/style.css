@@ -556,6 +556,50 @@ h2 {
   margin-top: 110px;
   font-size: 2.75rem;
   font-weight: 300;
+}
 
+li {
+  display: inline-block;
+  text-decoration: none;
+  margin: 7px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  border-style: none;
+  border: solid #d4d8db 1px;
+}
+.content {
+  margin-left: 545px;
+  
 
+}
+h5 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-size: 1.00rem;
+  margin-bottom: 0;
+}
+hr {
+  text-align:center; 
+  margin: 0 auto; 
+  width: 70%; 
+  border: 0;
+  border-top: 1px solid #eaebec;
+}
+h6 {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+  text-align: center;
+  margin-top: 0;
+  margin-right: 525px;
+  font-family: 'Roboto', sans-serif; 
+  -webkit-font-smoothing: antialiased;
 }
