@@ -603,3 +603,9 @@ h6 {
   font-family: 'Roboto', sans-serif; 
   -webkit-font-smoothing: antialiased;
 }
+@media only screen and (max-width: 500px) {
+    .page-wrap {
+      margin: none;
+      width: 500px;
+    }
+}
