@@ -605,7 +605,8 @@ h6 {
 }
 @media only screen and (max-width: 500px) {
     .page-wrap {
-      margin: none;
-      width: 500px;
+      paddin: 0;
+      margin: 0;
+
     }
 }
